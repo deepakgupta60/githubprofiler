@@ -1,0 +1,105 @@
+
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+#form {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.card {
+  margin: auto;
+  width: auto !important;
+  background-color: #555355 !important;
+  border-radius: 30px !important;
+  padding: 20px;
+}
+
+.imgClass {
+  border-radius: 50%;
+  border: 10px solid white;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.card-title {
+    font-size: 30px;
+    /* text-align: center; */
+  }
+
+
+.card-body {
+  padding-top: 30px !important;
+  color: white !important;
+}
+
+body {
+  background-color: #EEEDEF !important;
+}
+#search
+{
+    background-color:white !important;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#search:focus{
+    background-color: white !important;
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .card{ 
+        width: 100%;
+    }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media only screen and (min-width: 576px) {
+    .card{ 
+        width: 100%;
+    }
+    
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .card{ 
+        width: 80%;
+    }
+    .imgClass {
+        margin-top: 20px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .card{ 
+        width: 60%;
+    }
+   
+    .imgClass {
+        margin-top: 10px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .card{ 
+        width: 70% !important; 
+    }
+    .imgClass {
+        margin-top: 30px;
+    }
+  }
